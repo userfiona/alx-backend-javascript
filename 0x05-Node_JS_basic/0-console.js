@@ -1,15 +1,10 @@
 /**
- * Logs a message to the console.
- * @param {string} message - The message to log.
- * @returns {void}
+ * Prints the given message to STDOUT.
+ *
+ * @param {msg} str - The message to be printed.
  */
-// Arrow function
-const displayMessage = (message) => console.log(message);
+function displayMessage(msg) {
+  console.log(msg);
+}
 
-/**
- * Exports the displayMessage function.
- * @module displayMessage
- * @function
- */
-// Default module export.
 module.exports = displayMessage;
